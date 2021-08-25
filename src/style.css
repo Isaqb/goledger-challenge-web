@@ -1,0 +1,43 @@
+body {
+    background: url(./assets/capa.png),
+                url(./assets/ruido.png),
+                linear-gradient(50deg,#ff4169,#7c26f8);
+    background-attachment: fixed;
+    display: flex;
+}
+
+#albuns{
+    float: left;
+    display: flex;
+    padding: 20px;
+}
+
+#artistas{
+    float: left;
+    display: flex;
+    padding: 20px;
+}
+
+#streaming{
+    float: right;
+    display: flex;
+    padding: 20px;
+}
+
+form{
+    padding: 10px;
+}
+input,label{
+    margin-bottom: 5px;
+}
+
+button{
+    color: white;
+    border-radius: 500px;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    background: #7c25f8;
+    margin-top: 10px;
+}
