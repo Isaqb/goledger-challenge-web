@@ -40,4 +40,17 @@ button{
     padding: 10px 20px;
     background: #7c25f8;
     margin-top: 10px;
+    margin-right: 10px;
+}
+
+#bloco{
+    margin-top: 10px;
+    background: #fefefe;
+    overflow: scroll;
+    opacity: 0.5;
+    border-radius: 8px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
+    padding: 24px;
+    width: 340px;
+    height: 500px;
 }

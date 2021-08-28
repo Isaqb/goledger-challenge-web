@@ -24,10 +24,10 @@ const AddArtist = ({onAddArtist}:Props) =>{
 
     return(
         <form onSubmit={handleSubmit}>
-            <label htmlFor="input-name">Localização:</label>
-            <input id="input-name" type="text" value={location} onChange={(event)=>setLocation(event.target.value)}/><br/>
-            <label htmlFor="input-name">Descrição:</label>
-            <input id="input-name" type="text" value={description} onChange={(event)=>setDescription(event.target.value)}/><br/>
+            <label htmlFor="input-location">Localização:</label>
+            <input id="input-location" type="text" value={location} onChange={(event)=>setLocation(event.target.value)}/><br/>
+            <label htmlFor="input-desc">Descrição:</label>
+            <input id="input-desc" type="text" value={description} onChange={(event)=>setDescription(event.target.value)}/><br/>
             <label htmlFor="input-name">Nome:</label>
             <input id="input-name" type="text" value={name} onChange={(event)=>setName(event.target.value)}/><br/>
             <button type="submit">Criar Artista</button>

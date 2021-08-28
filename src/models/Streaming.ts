@@ -1,6 +1,6 @@
 type Streaming = {
-    key: string;
-    name: string;
+    key_streaming: string;
+    name_streaming: string;
 }
 
 export default Streaming;

@@ -16,6 +16,7 @@ const ArtistItem = ({artist,onRemoveArtist}: Props) =>(
             <button onClick={()=> onRemoveArtist(artist.key)}>
                 Excluir Artista
             </button>
+            <button>Editar</button>
         </div>
   
 );

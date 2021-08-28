@@ -1,8 +1,8 @@
 type Album = {
-    key:string;
+    key_album:string;
     artist: string;
     nTracks: number;
-    name: string;
+    name_album: string;
     year: number;
 }
 
