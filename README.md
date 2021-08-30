@@ -1,3 +1,13 @@
+#Dependêcias
+react: "^17.0.2",
+react-router-dom: "^5.2.1",
+typescript: "^4.1.2",
+uuid: "^8.3.2",
+
+#Como Rodar
+npm start
+  ou
+yarn start
 # GoLedger Challenge
 
 In this challenge you will create a web interface to a blockchain application. In this application you must implement an artist and album registration interface.
