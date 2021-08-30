@@ -5,20 +5,24 @@ body {
     background-attachment: fixed;
     display: flex;
 }
+.albun,.artista,.stream{
+    font-size: 50px;
+    align-items: center;
+}
 
-#albuns{
+.albuns{
     float: left;
     display: flex;
     padding: 20px;
 }
 
-#artistas{
+.artistas{
     float: left;
     display: flex;
     padding: 20px;
 }
 
-#streaming{
+.streaming{
     float: right;
     display: flex;
     padding: 20px;
@@ -43,7 +47,7 @@ button{
     margin-right: 10px;
 }
 
-#bloco{
+.bloco{
     margin-top: 10px;
     background: #fefefe;
     overflow: scroll;

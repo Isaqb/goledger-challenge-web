@@ -1,10 +1,13 @@
 import React, { useState } from 'react';
+
 import ALBUM from '../album';
 import ARTISTS from '../artist';
 import STREAMING from '../streaming';
 import AlbumItem from './AlbumItem';
 import ArtistItem from './ArtistItem';
 import StreamingItem from './StreamingItem';
+
+import '../style.css';
 
 function SearchBar(){
     const [artists, setArtists] = useState(ARTISTS);
@@ -47,7 +50,7 @@ function SearchBar(){
     }
 
     
-    const [op,setOp] = useState("");
+    const [op,setOp] = useState("searchArtist");
 
     const handleChange = (event: React.ChangeEvent<HTMLSelectElement>) =>{
         event.preventDefault();
@@ -76,14 +79,13 @@ function SearchBar(){
             
             <form >
                 <input type="text" placeholder='Faça sua busca ' onChange={(e)=>handleSearch(e)}/>
-                    <select defaultValue="" onChange={handleChange}>
-                        <option  value=""></option>
+                    <select defaultValue="searchArtist" onChange={handleChange}>
                         <option  value="searchArtist">Artista</option>
                         <option value="searchStreaming">Streaming</option>
                         <option value="searchAlbum">Album</option>
                     </select>
             </form>
-            <div>
+            <div >
                 <ul>
                     {
                        op === 'searchArtist' ? (filteredArtists.map( f =>(
